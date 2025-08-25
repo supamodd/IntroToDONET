@@ -175,7 +175,7 @@ namespace Game
 
             Console.SetCursorPosition(foodX, foodY);
             Console.Write("A");
-
+            
             foreach (var bodyPart in snakeBody)         
             {
                 Console.SetCursorPosition(bodyPart.Item1, bodyPart.Item2); 
