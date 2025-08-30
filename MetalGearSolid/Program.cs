@@ -48,7 +48,7 @@ namespace Game
 
                 DrawGame();
                 
-                Thread.Sleep(100);
+                Thread.Sleep(500);
             }
 
             Console.SetCursorPosition(width / 2 - 5, height / 2);
